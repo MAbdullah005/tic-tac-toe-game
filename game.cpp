@@ -49,4 +49,17 @@ class game
         exit(0);
        }
    }
+  void set1()
+   {
+      for(int count=0;count<3;count++)
+      {
+         for(int i=0;i<3;i++)
+         {
+          cout<<play[count][i]<<" ";
+         }
+         cout<<endl;
+      }
+      check();
+   }
+};
  
